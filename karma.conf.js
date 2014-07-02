@@ -19,6 +19,7 @@ module.exports = function(config) {
 		// list of files / patterns to load in the browser
 		files: [
 			'node_modules/angular/lib/angular.min.js',
+			'node_modules/angular-ui-router/release/angular-ui-router.min.js',
 			'test/lib/angular-mocks.js',
 			'test/**/*.test.js'
 		],
@@ -30,6 +31,7 @@ module.exports = function(config) {
 
 		browserify: {
 			files: [
+				'lib/index.js',
 				'lib/**/*.js',
 			],
 			transform: ['partialify']
@@ -68,7 +70,7 @@ module.exports = function(config) {
 
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-		browsers: [],
+		browsers: ['Chrome'],
 
 
 		// Continuous Integration mode
