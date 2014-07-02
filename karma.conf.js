@@ -31,8 +31,7 @@ module.exports = function(config) {
 
 		browserify: {
 			files: [
-				'lib/index.js',
-				'lib/**/*.js',
+				'lib/**/*.js'
 			],
 			transform: ['partialify']
 		},
@@ -70,7 +69,7 @@ module.exports = function(config) {
 
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-		browsers: ['Chrome'],
+		browsers: [],
 
 
 		// Continuous Integration mode
