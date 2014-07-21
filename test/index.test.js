@@ -14,13 +14,13 @@ describe('strategi', function(){
 	}));
 
 	it('should get correct url from the state', function () {
-		expect(state.href('strategy')).toEqual('#/strategy');
+		expect(state.href('strategy.scorecard')).toEqual('#/scorecard/');
 	});
 
-	it('should transition  to strategi.department', function () {
-		state.transitionTo('strategy.department');
+	it('should transition  to strategi.tasks', function () {
+		state.transitionTo('strategy.tasks');
 		rootScope.$apply();
-		expect(state.current.name).toBe('strategy.department');
+		expect(state.current.name).toBe('strategy.tasks');
 	});
 
 });
