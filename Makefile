@@ -30,14 +30,14 @@ build: node_modules $(SRC)
 	mkdir -p $@
 	atomify
 	@echo ""
-	@echo "    strategi was built!"
+	@echo "    strategy was built!"
 	@echo ""
 
 node_modules: package.json
 	npm install
 
 test: build
-	node_modules/karma/bin/karma start	
+	node_modules/karma/bin/karma start
 
 clean:
 	rm -fr build

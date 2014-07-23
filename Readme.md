@@ -1,5 +1,5 @@
 
-strategi
+strategy
 ============
 
 The base of the strategy app
@@ -7,7 +7,7 @@ The base of the strategy app
 
 ## Installation
 
-    $ git clone https://github.com/bdo-labs/strategi.git
+    $ git clone https://github.com/bdo-labs/strategy.git
     $ make -s
 
 
@@ -19,7 +19,7 @@ The base of the strategy app
 ## API
 
 ```Javascript
-    var strategi = require('strategi');
+    var strategi = require('strategy');
 ```
 
 
