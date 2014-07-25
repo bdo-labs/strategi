@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "The base of the strategy app",
   "main": "lib/index.js",
+  "style": "lib/index.css",
   "repository": "git://github.com/bdo-labs/strategy.git",
   "scripts": {
     "test": "karma start"
@@ -11,6 +12,10 @@
     "js": {
       "entry": "lib/index.js",
       "output": "build/build.js"
+    },
+    "css": {
+      "entry": "lib/index.css",
+      "output": "main.css"
     }
   },
   "browserify": {
@@ -29,6 +34,8 @@
     "partialify": "^3.1.1"
   },
   "dependencies": {
-    "services": "git+https://edbdo.visualstudio.com/DefaultCollection/BDO%20Labs/_git/Services"
+    "services": "git+https://edbdo.visualstudio.com/DefaultCollection/BDO%20Labs/_git/Services",
+    "scorecard-view": "git+ssh://git@github.com:bdo-labs/scorecard-view.git",
+    "indicator-view": "git+ssh://git@github.com:bdo-labs/indicator-view.git"
   }
 }

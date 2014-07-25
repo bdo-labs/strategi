@@ -1,5 +1,5 @@
-describe('strategi', function(){
-	beforeEach(module('strategi'));
+describe('strategy', function(){
+	beforeEach(module('strategy'));
 
 	var scope,
 			controller,
@@ -17,7 +17,7 @@ describe('strategi', function(){
 		expect(state.href('strategy.scorecard')).toEqual('#/scorecard/');
 	});
 
-	it('should transition  to strategi.tasks', function () {
+	it('should transition  to strategy.tasks', function () {
 		state.transitionTo('strategy.tasks');
 		rootScope.$apply();
 		expect(state.current.name).toBe('strategy.tasks');
