@@ -15,7 +15,7 @@
     },
     "css": {
       "entry": "lib/index.css",
-      "output": "main.css"
+      "output": "build/bundle.css"
     }
   },
   "browserify": {
