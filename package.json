@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "The base of the strategy app",
   "main": "lib/index.js",
-  "style": "lib/index.css",
+  "style": "lib/main.css",
   "repository": "git://github.com/bdo-labs/strategy.git",
   "scripts": {
     "test": "karma start"
@@ -14,7 +14,7 @@
       "output": "build/build.js"
     },
     "css": {
-      "entry": "lib/index.css",
+      "entry": "lib/main.css",
       "output": "build/bundle.css"
     }
   },
