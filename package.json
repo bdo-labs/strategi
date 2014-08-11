@@ -34,9 +34,10 @@
     "partialify": "^3.1.1"
   },
   "dependencies": {
-    "services": "git+https://edbdo.visualstudio.com/DefaultCollection/BDO%20Labs/_git/Services",
-    "scorecard-view": "git+ssh://git@github.com:bdo-labs/scorecard-view.git",
     "indicator-view": "git+ssh://git@github.com:bdo-labs/indicator-view.git",
+    "info-views": "git+ssh://git@github.com/bdo-labs/info-views.git",
+    "scorecard-view": "git+ssh://git@github.com:bdo-labs/scorecard-view.git",
+    "services": "git+https://edbdo.visualstudio.com/DefaultCollection/BDO%20Labs/_git/Services",
     "task-scorecard-summary-view": "git+ssh://git@github.com:bdo-labs/task-scorecard-summary-view.git"
   }
 }
