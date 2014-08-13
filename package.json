@@ -34,6 +34,7 @@
     "partialify": "^3.1.1"
   },
   "dependencies": {
+    "events-view": "git+ssh://git@github.com/bdo-labs/events-view",
     "indicator-view": "git+ssh://git@github.com:bdo-labs/indicator-view.git",
     "info-views": "git+ssh://git@github.com/bdo-labs/info-views.git",
     "scorecard-view": "git+ssh://git@github.com:bdo-labs/scorecard-view.git",
